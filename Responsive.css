@@ -1,0 +1,105 @@
+/* big phones */
+@media screen and (max-width:699px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        padding: 20px;
+    }
+    .container  .image{
+        width: 200px;
+        height: 200px;
+        object-fit: center;
+        border-radius: 5px;
+    }
+    nav{
+        padding: 20px;
+        gap: 10%;
+    }
+    nav .nav-logo{
+        font-size: 1.9em;
+    }
+    nav li a{
+        font-size: 20px;
+    }
+}
+
+/* small phones */
+@media screen and (max-width:450px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        padding: 20px;
+    }
+    .container  .image{
+        width: 220px;
+        height: 220px;
+        object-fit: center;
+        border-radius: 5px;
+    }
+    nav{
+        padding: 20px;
+        gap: 10%;
+    }
+    nav .nav-logo{
+        font-size: 1.9em;
+    }
+    nav li a{
+        font-size: 20px;
+    }
+    .department_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .home_section .home_section_text{
+        text-align: center;
+        color: white;
+    }
+    
+    .home_section_text h1{
+        margin-bottom: 20px;
+        font-size:25px;
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding: 20px;
+    }
+    .container  .image{
+        width: 220px;
+        height: 220px;
+        object-fit: center;
+        border-radius: 5px;
+    }
+    nav{
+        padding: 20px;
+        gap: 50%;
+    }
+    nav .nav-logo{
+        font-size: 2.5em;
+    }
+    nav li a{
+        font-size: 20px;
+    }
+
+    .department_cards {
+        display: flex;
+        /* grid-template-columns: repeat(2, 1fr); */
+        flex-wrap: wrap;
+        gap: 10px;
+        
+    }
+    
+}
+
+/* laptops */
+@media screen and (min-width:1024px
